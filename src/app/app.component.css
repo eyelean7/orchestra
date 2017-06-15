@@ -1,0 +1,7 @@
+.nav {
+  float: left;
+  position: fixed;
+}
+.container {
+  margin-left: 90px;
+}
