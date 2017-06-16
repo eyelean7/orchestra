@@ -1,18 +1,19 @@
 import { Member } from './member.model';
 
-export const ALBUMS: Member[] = [
-  new Member('Pulse', 'Pink Floyd',
-      'A live  album by the English progressive rock band originally released in 1995.', 'filler', 1),
-  new Member('Funhouse', 'The Stooges',
-      'The second  album from the American rock band, released in 1970 by Elektra Records.', 'filler', 2),
-  new Member('Twilight of the Thunder God', 'Amon Amarth',
-      'Seventh album by the Swedish band, released in 2008, based on Thor\'s battle with the serpent Jörmungandr.', 'filler', 3),
-  new Member('Dilate', 'Ani DiFranco',
-      'Her highest-selling and most acclaimed album, released in 1996.', 'filler', 4),
-  new Member('Chopin - Complete Nocturnes', 'Brigitte Engerer',
-      'Released in 2010, this is Engerer\'s own rendition of the classical composer Chopin.', 'filler', 5),
-  new Member('Axis Bold As Love', 'The Jimi Hendrix Experience',
-      'Second studio album by the English-American band, released in 1967.', 'filler', 6),
-  new Member('Demon Days', 'Gorillaz',
-      'Second album by British virtual band Gorillaz, released in May 2005.', 'filler', 7)
+export const MEMBERS: Member[] = [
+  new Member('Maestro', 'conductor', true, 'filler', 1),
+  new Member('Vivian', 'violin', true, 'filler', 7),
+  new Member('Victor', 'violin', false, 'filler', 2),
+  new Member('Vinny', 'viola', true, 'filler', 3),
+  new Member('Celeste', 'cello', true, 'filler', 4),
+  new Member('Barry', 'bass', true, 'filler', 5),
+  new Member('Perry', 'percussion', true, 'filler', 6),
+  new Member('Oscar', 'oboe', true, 'filler', 8),
+  new Member('Felicity', 'flute', true, 'filler', 9),
+  new Member('Colin', 'clarinet', true, 'filler', 10),
+  new Member('Bubba', 'bassoon', true, 'filler', 11),
+  new Member('Tori', 'trumpet', true, 'filler', 12),
+  new Member('Fred', 'french horn', true, 'filler', 13),
+  new Member('Terry', 'trombone', true, 'filler', 14),
+  new Member('Tom', 'tuba', true, 'filler', 15),
 ];
