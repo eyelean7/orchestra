@@ -1,5 +1,5 @@
 <h2>Community</h2>
 
-<div *ngFor="let member of members | async" (click)="goToDetailPage(member)">
+<div *ngFor="let member of members | async | instrument:'violin'" (click)="goToDetailPage(member)">
   <h3>{{member.name}}, <em>{{member.instrument}}</em></h3>
 </div>

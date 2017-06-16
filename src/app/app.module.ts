@@ -13,6 +13,7 @@ import { routing } from './app.routing';
 import { masterFirebaseConfig } from './api-keys';
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
+import { InstrumentPipe } from './instrument.pipe';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -27,7 +28,8 @@ export const firebaseConfig = {
     WelcomeComponent,
     AboutComponent,
     CommunityComponent,
-    MemberDetailComponent
+    MemberDetailComponent,
+    InstrumentPipe
   ],
   imports: [
     BrowserModule,

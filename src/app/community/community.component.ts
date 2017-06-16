@@ -3,6 +3,7 @@ import { Member } from '../member.model';
 import { Router } from '@angular/router';
 import { MemberService } from '../member.service';
 import { FirebaseListObservable } from 'angularfire2/database';
+import { InstrumentPipe } from '../instrument.pipe'
 
 
 @Component({
