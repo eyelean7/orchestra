@@ -3,13 +3,13 @@
   <div>
     <label>Name:</label>
     <br>
-    <input #newName>
+    <input #newName class="form-control">
   </div>
 
   <div>
     <label>Instrument:</label>
     <br>
-    <input #newInstrument>
+    <input #newInstrument class="form-control">
   </div>
 
   <div>
@@ -23,11 +23,9 @@
 
   <div>
     <label>Photo:</label>
-    <input #newImg>
+    <input #newImg class="form-control">
   </div>
-
-
-
-  <button (click)="submitForm(newName.value, newInstrument.value, newPrincipal.value, newImg.value); newName.value=''; newInstrument.value=''; newImg.value=''; newPrincipal.value=''">Add</button>
+<br>
+  <button class="btn" (click)="submitForm(newName.value, newInstrument.value, newPrincipal.value, newImg.value); newName.value=''; newInstrument.value=''; newImg.value=''; newPrincipal.value=''">Add</button>
 
 </div>
