@@ -1,6 +1,5 @@
 import { Injectable } from '@angular/core';
 import { Member } from './member.model';
-import { MEMBERS } from './mock-members';
 import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/database';
 
 @Injectable()
@@ -13,12 +12,14 @@ export class MemberService {
   getMembers() {
     return this.members;
   }
-
+  addMember(newMember: Member) {
+    this.members.push(newMember);
+  }
   getMemberById(memberId: number) {
-  for (let i = 0; i <= MEMBERS.length - 1; i++) {
-  if (MEMBERS[i].id === memberId) {
-    return MEMBERS[i];
-      }
-    }
+  // for (let i = 0; i <= MEMBERS.length - 1; i++) {
+  // if (MEMBERS[i].id === memberId) {
+  //   return MEMBERS[i];
+  //     }
+  //   }
   }
 }

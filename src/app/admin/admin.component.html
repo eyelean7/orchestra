@@ -1,0 +1,33 @@
+<h3>New Member</h3>
+<div>
+  <div>
+    <label>Name:</label>
+    <br>
+    <input #newName>
+  </div>
+
+  <div>
+    <label>Instrument:</label>
+    <br>
+    <input #newInstrument>
+  </div>
+
+  <div>
+    <label>Principal</label>
+    <br>
+    <select #newPrincipal>
+      <option value=true>Yes</option>
+      <option value=false>No</option>
+    </select>
+  </div>
+
+  <div>
+    <label>Photo:</label>
+    <input #newImg>
+  </div>
+
+
+
+  <button (click)="submitForm(newName.value, newInstrument.value, newPrincipal.value, newImg.value); newName.value=''; newInstrument.value=''; newImg.value=''; newPrincipal.value=''">Add</button>
+
+</div>

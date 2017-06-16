@@ -1,91 +1,91 @@
 { "members": [{
     "name": "Maestro",
     "instrument": "conductor",
-    "primary": true,
+    "principal": true,
     "img": "filler",
     "id": "1"
   }, {
     "name": "Victor",
     "instrument": "violin",
-    "primary": false,
+    "principal": false,
     "img": "filler",
     "id": "2"
   }, {
     "name": "Vinny",
     "instrument": "viola",
-    "primary": true,
+    "principal": true,
     "img": "filler",
     "id": "3"
   }, {
     "name": "Celeste",
     "instrument": "cello",
-    "primary": true,
+    "principal": true,
     "img": "filler",
     "id": "4"
     }, {
     "name": "Barry",
     "instrument": "bass",
-    "primary": false,
+    "principal": false,
     "img": "filler",
     "id": "5"
       }, {
     "name": "Perry",
     "instrument": "percussion",
-    "primary": true,
+    "principal": true,
     "img": "filler",
     "id": "6"
     }, {
     "name": "Vivian",
     "instrument": "violin",
-    "primary": true,
+    "principal": true,
     "img": "filler",
     "id": "7"
     }, {
     "name": "Oscar",
     "instrument": "oboe",
-    "primary": true,
+    "principal": true,
     "img": "filler",
     "id": "8"
     }, {
     "name": "Felicity",
     "instrument": "flute",
-    "primary": true,
+    "principal": true,
     "img": "filler",
     "id": "9"
     }, {
     "name": "Colin",
     "instrument": "clarinet",
-    "primary": true,
+    "principal": true,
     "img": "filler",
     "id": "10"
     }, {
     "name": "Bubba",
     "instrument": "bassoon",
-    "primary": true,
+    "principal": true,
     "img": "filler",
     "id": "11"
     }, {
     "name": "Tori",
     "instrument": "trumpet",
-    "primary": true,
+    "principal": true,
     "img": "filler",
     "id": "12"
     }, {
     "name": "Fred",
     "instrument": "french horn",
-    "primary": true,
+    "principal": true,
     "img": "filler",
     "id": "13"
     }, {
     "name": "Terry",
     "instrument": "trombone",
-    "primary": true,
+    "principal": true,
     "img": "filler",
     "id": "14"
     }, {
     "name": "Tom",
     "instrument": "tuba",
-    "primary": true,
+    "principal": true,
     "img": "filler",
     "id": "15"
       }]

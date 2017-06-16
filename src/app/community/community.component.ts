@@ -25,7 +25,7 @@ export class CommunityComponent implements OnInit {
   }
 
   goToDetailPage(clickedMember: Member) {
-    this.router.navigate(['members', clickedMember.id]);
+    // this.router.navigate(['members', clickedMember.id]);
   };
 
   onChange(optionFromMenu) {
