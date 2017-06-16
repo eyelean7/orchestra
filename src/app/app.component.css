@@ -1,3 +1,12 @@
+#page {
+  color: skyblue;
+  background-color: #1e1b19;
+  background-image: url("./../assets/img/cd.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
 .nav {
   float: left;
   position: fixed;

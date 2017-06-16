@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./welcome.component.css']
 })
 export class WelcomeComponent implements OnInit {
-
+  scroll = './../assets/img/gorillaz-feel-good-inc.jpg'
   constructor() { }
 
   ngOnInit() {
