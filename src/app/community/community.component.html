@@ -1,5 +1,12 @@
 <h2>Community</h2>
-
-<div *ngFor="let member of members | async | instrument:'violin'" (click)="goToDetailPage(member)">
+<select (change)="onChange($event.target.value)">
+  <option value="allMembers" selected="selected">All Members</option>
+  <option value="conductor">Conductor</option>
+  <option value="violin">Violin Section</option>
+  <option value="viola">Viola Section</option>
+  <option value="cello">Cello Section</option>
+  <option value="bass">Bass Section</option>
+</select>
+<div *ngFor="let member of members | async | instrument:filterByInstrument" (click)="goToDetailPage(member)">
   <h3>{{member.name}}, <em>{{member.instrument}}</em></h3>
 </div>
