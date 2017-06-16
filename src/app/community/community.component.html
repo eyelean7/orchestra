@@ -1,0 +1,7 @@
+<h2>Community</h2>
+
+<div *ngFor="let member of members | async" (click)="goToDetailPage(member)" class="panel panel-default">
+  <div class="panel-body">
+    <h3><em>{{member.title}}</em> by {{member.artist}}</h3>
+  </div>
+</div>

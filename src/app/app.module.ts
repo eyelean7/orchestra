@@ -6,8 +6,8 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { AboutComponent } from './about/about.component';
-import { MarketplaceComponent } from './marketplace/marketplace.component';
-import { AlbumDetailComponent } from './album-detail/album-detail.component';
+import { CommunityComponent } from './community/community.component';
+import { MemberDetailComponent } from './member-detail/member-detail.component';
 
 import { routing } from './app.routing';
 import { masterFirebaseConfig } from './api-keys';
@@ -26,8 +26,8 @@ export const firebaseConfig = {
     AppComponent,
     WelcomeComponent,
     AboutComponent,
-    MarketplaceComponent,
-    AlbumDetailComponent
+    CommunityComponent,
+    MemberDetailComponent
   ],
   imports: [
     BrowserModule,

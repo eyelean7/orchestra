@@ -2,8 +2,8 @@ import { ModuleWithProviders } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { AboutComponent } from './about/about.component';
-import { MarketplaceComponent } from './marketplace/marketplace.component';
-import { AlbumDetailComponent } from './album-detail/album-detail.component';
+import { CommunityComponent } from './community/community.component';
+import { MemberDetailComponent } from './member-detail/member-detail.component';
 
 
 const appRoutes: Routes = [
@@ -16,12 +16,12 @@ const appRoutes: Routes = [
     component: AboutComponent
   },
   {
-    path: 'marketplace',
-    component: MarketplaceComponent
+    path: 'community',
+    component: CommunityComponent
   },
   {
-    path: 'albums/:id',
-    component: AlbumDetailComponent
+    path: 'members/:id',
+    component: MemberDetailComponent
   },
 ];
 

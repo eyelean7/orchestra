@@ -1,16 +1,20 @@
 #page {
-  color: skyblue;
-  background-color: #1e1b19;
-  background-image: url("./../assets/img/cd.jpg");
+  color: #669fff;
+  background-image: url("./../assets/img/orchestra.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
   min-height: 100vh;
 }
+.dark {
+  background-color: rgba(0, 0, 0, 0.7);
+}
 .nav {
   float: left;
   position: fixed;
+  border-radius: 5px;
+
 }
 .container {
-  margin-left: 90px;
+  margin-left: 100px;
 }

@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AlbumDetailComponent } from './album-detail.component';
+import { CommunityComponent } from './community.component';
 
-describe('AlbumDetailComponent', () => {
-  let component: AlbumDetailComponent;
-  let fixture: ComponentFixture<AlbumDetailComponent>;
+describe('CommunityComponent', () => {
+  let component: CommunityComponent;
+  let fixture: ComponentFixture<CommunityComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ AlbumDetailComponent ]
+      declarations: [ CommunityComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(AlbumDetailComponent);
+    fixture = TestBed.createComponent(CommunityComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

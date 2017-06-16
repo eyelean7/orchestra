@@ -1,19 +1,22 @@
 <div id="page">
-  <ul class="nav">
-    <li class="nav-item">
-      <a routerLink="/">Welcome</a>
-    </li>
-    <li class="nav-item">
-      <a routerLink="about">About</a>
-    </li>
-    <li class="nav-item">
-      <a routerLink="marketplace">Marketplace</a>
-    </li>
-  </ul>
+  <div class="dark">
+    <ul class="nav">
+      <li class="nav-item">
+        <a routerLink="/">Welcome</a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="about">About</a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="community">Community</a>
+      </li>
+    </ul>
 
-  <div class="container">
-    <h1> {{title}} </h1>
-      <router-outlet></router-outlet>
+    <div class="container">
+      <h1> {{title}} </h1>
+        <router-outlet></router-outlet>
+    </div>
   </div>
+
 
 </div>

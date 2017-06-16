@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Ilene\'s Audio Library';
-  bgimg = './../assets/img/cd.jpg';
+  bgimg = './../assets/img/orchestra.jpg';
 }
