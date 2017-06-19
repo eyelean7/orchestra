@@ -16,7 +16,7 @@ import { InstrumentPipe } from '../instrument.pipe';
 
 export class CommunityComponent implements OnInit {
   members: FirebaseListObservable<any[]>;
-  filterByInstrument: string = "allMembers";
+  filterByInstrument = 'allMembers';
 
   constructor(private router: Router, private memberService: MemberService) {}
 
@@ -24,8 +24,8 @@ export class CommunityComponent implements OnInit {
     this.members = this.memberService.getMembers();
   }
 
-  goToDetailPage(clickedMember: Member) {
-    // this.router.navigate(['members', clickedMember.id]);
+  goToDetailPage(clickedMember) {
+    this.router.navigate(['members', clickedMember.$key]);
   };
 
   onChange(optionFromMenu) {

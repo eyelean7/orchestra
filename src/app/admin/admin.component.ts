@@ -16,7 +16,7 @@ export class AdminComponent implements OnInit {
   }
 
   submitForm(name: string, instrument: string, principal: boolean, img: string) {
-      var newMember: Member = new Member(name, instrument, principal, img);
+      const newMember: Member = new Member(name, instrument, principal, img);
       this.MemberService.addMember(newMember);
     }
 }

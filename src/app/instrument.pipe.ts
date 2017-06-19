@@ -11,8 +11,7 @@ export class InstrumentPipe implements PipeTransform {
   let output: Member[] = [];
   if (instrument === 'allMembers') {
     output = input;
-  }
-  else {
+  } else {
     for (let i = 0; i < input.length; i++) {
       if (input[i].instrument === instrument) {
         output.push(input[i]);

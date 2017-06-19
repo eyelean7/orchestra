@@ -8,5 +8,5 @@
   <option value="bass">Bass Section</option>
 </select>
 <div *ngFor="let member of members | async | instrument:filterByInstrument" (click)="goToDetailPage(member)">
-  <h3>{{member.name}}, <em>{{member.instrument}}</em></h3>
+  <h3>{{member.name}}, <em>{{member.instrument}}</em> {{member.$key}}</h3>
 </div>

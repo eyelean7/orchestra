@@ -46,6 +46,8 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Known bugs
 
+* Admin bar cuts off last member.
+* Individual member pages lack extra details.
 * Users can not yet be edited or deleted.
 * Admin does not require sign-in.
 * Hopefully in the future you can upload an image and it will display. As of right now it only accepts text and does nothing with it!
