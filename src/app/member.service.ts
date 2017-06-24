@@ -26,4 +26,9 @@ export class MemberService {
       principal: localUpdatedMember.principal,
       img: localUpdatedMember.img})
   }
+
+  deleteMember(memberToDelete) {
+    let memberEntryInFirebase = this.getMemberById(memberToDelete.$key);
+    memberEntryInFirebase.remove();
+  }
 }
