@@ -1,0 +1,19 @@
+<h4>Edit Member</h4>
+
+<label>New Name:</label>
+<input [(ngModel)]="selectedMember.name">
+<br>
+
+<label>New Instrument:</label>
+<input [(ngModel)]="selectedMember.instrument">
+<br>
+
+<label>New Principal:</label>
+<br>
+<select [(ngModel)]="selectedMember.principal">
+  <option value=true>Yes</option>
+  <option value=false>No</option>
+</select>
+
+<label>New Image:</label>
+<input [(ngModel)]="selectedMember.img">

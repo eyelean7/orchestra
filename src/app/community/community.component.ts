@@ -17,6 +17,7 @@ import { InstrumentPipe } from '../instrument.pipe';
 export class CommunityComponent implements OnInit {
   members: FirebaseListObservable<any[]>;
   filterByInstrument = 'allMembers';
+  currentRoute: string = this.router.url;
 
   constructor(private router: Router, private memberService: MemberService) {}
 

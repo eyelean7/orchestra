@@ -50,4 +50,5 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 * Individual member pages lack extra details.
 * Users can not yet be edited or deleted.
 * Admin does not require sign-in.
-* Hopefully in the future you can upload an image and it will display. As of right now it only accepts text and does nothing with it!
+* Hopefully in the future you can upload an image and it will display. As of right now it only accepts text but does nothing with it!
+* Add select options for instrument
