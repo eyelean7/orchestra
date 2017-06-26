@@ -3,4 +3,9 @@ select {
 }
 option {
   background-color: inherit;
+  width: 40px;
+  margin: 0 auto;
+}
+h1,h2,h3,h4{
+  text-align: center;
 }
